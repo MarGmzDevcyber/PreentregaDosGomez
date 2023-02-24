@@ -45,7 +45,7 @@ h1{
 }
 
 /* Secciones  */
-.fbgcolor, cuerpo, .fondopagdos, .fondopag-tres{
+.fondotodpag{
     background: linear-gradient(to right, #654ea3, #eaafc8);
 }
 
@@ -203,6 +203,19 @@ position:relative;
     padding-top: 30px;
     justify-content: center;
     align-items: center;
+}
+/* pagina cinco */
+
+.paginacinco{
+    background-image:url(../assets/bgpagcinco.svg);
+    background-size: cover;
+    min-height: 100vh;
+    position:relative;
+}
+
+.ct{
+    width: 100px;
+    margin: 30px;
 }
 
 /* Media Querys */
