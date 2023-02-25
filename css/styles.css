@@ -109,7 +109,7 @@ h3 {
 }
 /* Texto Header Pag2 */
 .sobre-mi{
-    padding-top: 250px;
+    padding-top: 25%;
     text-align: center;
     font-size: 8rem;
     color:antiquewhite !important;
@@ -306,11 +306,47 @@ position:relative;
     }
 
     .foto-uno {
-        width: 250px;
+        width: 150px;
     }
 
     .contenido-dos {
-        padding-top: 40px;
+        padding-top: 10%;
+        font-size: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactt {
+        font-size: 1rem;
+    }
+
+    .ft2 {
+        font-size: 1rem;
+    }
+
+}
+@media only screen and (max-width: 576px) {
+
+    .sobre-mi {
+        padding-top: 100px;
+        font-size: 4rem;
+    }
+
+    h2{
+        padding-top: 30px;
+        font-size: 2rem;
+    }
+
+    .foto-uno {
+        width: 180px;
+    }
+
+    .contenido-dos {
+        padding-top: 10%px;
+        margin: 5%;
+        font-size: 0.5rem;
+        justify-content: center;
+        align-items: center;
     }
 
     .contactt {
@@ -318,7 +354,6 @@ position:relative;
     }
 
     .ft2 {
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
-
 }
