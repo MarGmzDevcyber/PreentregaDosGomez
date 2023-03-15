@@ -1,49 +1,47 @@
+@use 'mediaq.scss';
 *{
     margin:0;
     padding:0;
+}
+// fondo de todas las paginas
 
+.fondotodpag {
+    background :linear-gradient(to right, #654ea3, #eaafc8)
 }
 
+// navbar
+.header .navbar{
+    background-color: transparent !important;
+    }
+    
+    .navbg a{
+        color: rgb(240, 248, 255);
+        font-weight: bold;
+    }
+    .navbg a:hover{
+        background-color: rgb(47, 10, 78);
+        border-style: hidden;
+        color: rgb(240, 248, 255);
+    }
+    // titulosprincipales
+h1{
+        padding-top: 25%;
+        text-align: center;
+        align-items: center;
+        font-size: 6rem;
+        color: rgb(240, 248, 255) !important;
+        font-weight: bold;
+        justify-content: center;
+        }
 
-.fondotodpag{
-    background: linear-gradient(to right, #654ea3, #eaafc8);
-}
 .primerpag{
-    background: url(../assets/bgindex.svg) no-repeat center;
+    background: url(../assets/bgindex.svg);
+    position: relative;
     background-size: cover;
     min-height:100vh;
-    position: relative;
-}
-
-.header .navbar{
-background-color: transparent !important;
-}
-
-.navbg a{
-    color: whitesmoke;
-    font-weight: bold;
-}
-.navbg a:hover{
-    background-color: rgb(47, 10, 78);
-    border-style: hidden;
-    color: aliceblue;
-}
-
-.text.header{
-    padding-top: 25%;
-    text-align: center;
-    align-items: center;
-}
-
-h1{
-font-size: 6rem;
-color: antiquewhite !important;
-font-weight: bold;
-justify-content: center;
-align-items: center;
 }
 .parte-uno{
-    margin: 5% 5%;
+    margin: 5%;
     padding: 5%;
     border: solid rgb(35, 5, 54);
     background-color: rgb(178, 103, 244);
@@ -53,24 +51,26 @@ align-items: center;
 
 h2{
     text-align: center;
-    color: aliceblue;
+    color:  rgb(240, 248, 255);
     font-size: 2rem;
 }
 
 h3{
-    font-size: 1rem;
+    font: size 1.5rem;;
     justify-content: center;
-    margin: 5%;
-    color: whitesmoke;
+    margin:5%;
+    color:  rgb(240, 248, 255);
 }
 
-.contenido{
+.textos{
     text-align: center;
     font-size: 1rem;
     justify-content: center;
-    margin: 5
+    margin: 5%;
+    color: rgb(240, 248, 255);
 }
 .iconos  {
+    padding-top: 5%;
     display: inline;
     width: 50%;
 }
@@ -80,6 +80,7 @@ h3{
 .rrss{
     align-items: center;
     text-align: center;
+    color: rgb(240, 248, 255);
 }
 .ft{
     justify-content: space-between;
@@ -90,8 +91,8 @@ h3{
 }
 .pagina-dos{
     background-image:url(../assets/bgpagdos.svg);
-    background-size: cover;
-    min-height: 100vh;
+    background-size:cover;
+    min-height:100vh;
     position:relative;
 }
 
@@ -99,13 +100,8 @@ h3{
     padding-top: 25%;
     text-align: center;
     font-size: 8rem;
-    color:antiquewhite !important;
+    color:  rgb(240, 248, 255) !important;
     font-weight: bold;
-}
-
-.parte-uno-dos{
-    justify-content: center;
-    align-items: center;
 }
 
 .contenido-dos{
@@ -113,31 +109,29 @@ h3{
     justify-content: center;
     text-align: center;
     align-items: center;
-    color: antiquewhite;
-}
+    color:  rgb(240, 248, 255);
 
 .foto-uno{
-    width:350px;
+    width: 10rem;
     align-items: center;
 }
 .contactt{
     text-align: center;
     font-size: 2rem;
-    color: antiquewhite;
+    color: rgb(240, 248, 255);
 }
 
 .ft2{
     text-align: center;
     font-size: 1rem;
     justify-content: center;
-    color: antiquewhite;
+    color: rgb(240, 248, 255);
 }
 .pagina-tres{
     background-image:url(../assets/bgpagtres.svg);
     background-size: cover;
     min-height: 100vh;
     position: relative;
-
 }
 
 .icono-tres{
@@ -145,34 +139,17 @@ h3{
     align-items: center;
     padding-top: 40px;
 }
-
-.parte-tres{
-    margin: 60px 60px 60px 60px;
-    border: solid rgb(35, 5, 54);
-    background-color:rgb(178, 103, 244) ;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 .iconos-tres{
     width:70px;
     padding-top: 30px;
 }
 .pagina-cuatro{
     background-image: url(../assets/bgpagcuatro.svg);
-    background-size: cover;
-    min-height:100vh;
-    position:relative;
+    background-size:cover;
+    min-height: 100vh;
+    position: relative;
     }
     
-.parte-cuatro{
-    margin: 60px 60px 60px 60px;
-    border: solid rgb(35, 5, 54);
-    background-color:rgb(178, 103, 244) ;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    }
 .foto-4{
     padding-top: 40px;
     width:140px;
@@ -186,85 +163,13 @@ h3{
     }
     .paginacinco{
         background-image:url(../assets/bgpagcinco.svg);
-        background-size: cover;
-        min-height: 100vh;
-        position:relative;
+        background-size:cover;
+        min-height:100vh;
+        position: relative;
     }
     
     .ct{
         width: 100px;
         margin: 30px;
     }
-    @media only screen and (max-width: 576px) {
-        /* Header */
-        h1 {
-            font-size: 3;
-            justify-content: center;
-        }
-    }
-    /* Pagina dos con media querys */
-    
-    @media only screen and (max-width: 768px) {
-    
-        .sobre-mi {
-            padding-top: 100px;
-            font-size: 4rem;
-        }
-    
-        h2{
-            padding-top: 30px;
-            font-size: 2rem;
-        }
-    
-        .foto-uno {
-            width: 150px;
-        }
-    
-        .contenido-dos {
-            padding-top: 10%;
-            font-size: 1rem;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .contactt {
-            font-size: 1rem;
-        }
-    
-        .ft2 {
-            font-size: 1rem;
-        }
-    
-    }
-    @media only screen and (max-width: 576px) {
-    
-        .sobre-mi {
-            padding-top: 100px;
-            font-size: 4rem;
-        }
-    
-        h2{
-            padding-top: 30px;
-            font-size: 2rem;
-        }
-    
-        .foto-uno {
-            width: 180px;
-        }
-    
-        .contenido-dos {
-            padding-top: 10%px;
-            margin: 5%;
-            font-size: 0.5rem;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .contactt {
-            font-size: 1.5rem;
-        }
-    
-        .ft2 {
-            font-size: 0.5rem;
-        }
-    }
+}
