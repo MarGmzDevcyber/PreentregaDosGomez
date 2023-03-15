@@ -159,13 +159,7 @@ h3 {
   color: rgb(240, 248, 255) !important;
   font-weight: bold;
 }
-
-.foto-uno {
-  width: 18rem;
-  align-items: center;
-}
-
-.contactt {
+.parte-dos {
   text-align: center;
   font-size: 2rem;
   color: rgb(240, 248, 255);
@@ -208,11 +202,6 @@ h3 {
   background-size: cover;
   min-height: 100vh;
   position: relative;
-}
-
-.ct {
-  width: 100px;
-  margin: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */

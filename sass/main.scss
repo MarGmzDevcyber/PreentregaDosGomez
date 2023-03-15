@@ -112,7 +112,7 @@ h3{
     perspective: 1000px;
     font-family: sans-serif;
 
-    .title {
+.title {
         font-size: 1.5em;
         font-weight: 900;
         text-align: center;
@@ -154,7 +154,6 @@ h3{
         transform: rotateY(180deg);
 }
     }
-}
 
 .foto-uno{
     align-items: center;
@@ -164,7 +163,6 @@ h3{
     height: fit-content;
     border-radius: 16px;
 }
-
 .pagina-tres{
     background-image: url(../assets/bgpagtres.svg);
     background-size: cover;
@@ -201,7 +199,7 @@ h3{
         min-height:100vh;
         position: relative;
     }
-    
+
         .parte-dos{
             font-size: 1.5rem;
         }
@@ -209,3 +207,4 @@ h3{
         .ft{
             font-size: 0.5rem;
         }
+    }
