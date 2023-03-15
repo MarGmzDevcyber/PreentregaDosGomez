@@ -9,23 +9,33 @@
         padding-top: 30px;
         font-size: 2rem;
     }
+    .flip-card {
+        width: 100%;
+        height: auto;
+}
+    
+.flip-card-inner {
+        height: auto;
+}
+    
+.foto-uno {
+        max-width: 100%;
+        height: auto;
+}
 
-    .foto-uno {
-        width: 150px;
-    }
 
-    .contenido-dos {
+    .texto{
         padding-top: 10%;
         font-size: 1rem;
         justify-content: center;
         align-items: center;
     }
 
-    .contactt {
+    .parte-dos{
         font-size: 1rem;
     }
 
-    .ft2 {
+    .ft {
         font-size: 1rem;
     }
 
@@ -42,11 +52,21 @@
         font-size: 2rem;
     }
 
-    .foto-uno {
-        width: 180px;
-    }
+.flip-card {
+        width: 300px;
+        height: 300px;
+}
+    
+.flip-card-inner {
+        height: 100%;
+}
+    
+.foto-uno {
+        max-width: 100%;
+        height: fit-content;
+}
 
-    .contenido-dos {
+    .texto{
         padding-top: 10%px;
         margin: 5%;
         font-size: 0.5rem;
@@ -54,11 +74,11 @@
         align-items: center;
     }
 
-    .contactt {
+    .parte-dos{
         font-size: 1.5rem;
     }
 
-    .ft2 {
+    .ft {
         font-size: 0.5rem;
     }
 }
