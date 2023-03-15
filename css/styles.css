@@ -1,221 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.fondotodpag {
-  background: linear-gradient(to right, #654ea3, #eaafc8);
-}
-
-.primerpag {
-  background: url(../assets/bgindex.svg) no-repeat center;
-  background-size: cover;
-  min-height: 100vh;
-  position: relative;
-}
-
-.header .navbar {
-  background-color: transparent !important;
-}
-
-.navbg a {
-  color: whitesmoke;
-  font-weight: bold;
-}
-
-.navbg a:hover {
-  background-color: rgb(47, 10, 78);
-  border-style: hidden;
-  color: aliceblue;
-}
-
-.text.header {
-  padding-top: 25%;
-  text-align: center;
-  align-items: center;
-}
-
-h1 {
-  font-size: 6rem;
-  color: antiquewhite !important;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-}
-
-.parte-uno {
-  margin: 5% 5%;
-  padding: 5%;
-  border: solid rgb(35, 5, 54);
-  background-color: rgb(178, 103, 244);
-  align-items: center;
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-  color: aliceblue;
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1rem;
-  justify-content: center;
-  margin: 5%;
-  color: whitesmoke;
-}
-
-.contenido {
-  text-align: center;
-  font-size: 1rem;
-  justify-content: center;
-  margin: 5;
-}
-
-.iconos {
-  display: inline;
-  width: 50%;
-}
-
-.conten {
-  width: 200px;
-}
-
-.rrss {
-  align-items: center;
-  text-align: center;
-}
-
-.ft {
-  justify-content: space-between;
-  width: 50px;
-  justify-content: center;
-  padding-top: 60px;
-  margin-left: 40px;
-}
-
-.pagina-dos {
-  background-image: url(../assets/bgpagdos.svg);
-  background-size: cover;
-  min-height: 100vh;
-  position: relative;
-}
-
-.sobre-mi {
-  padding-top: 25%;
-  text-align: center;
-  font-size: 8rem;
-  color: antiquewhite !important;
-  font-weight: bold;
-}
-
-.parte-uno-dos {
-  justify-content: center;
-  align-items: center;
-}
-
-.contenido-dos {
-  padding-top: 100px;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  color: antiquewhite;
-}
-
-.foto-uno {
-  width: 350px;
-  align-items: center;
-}
-
-.contactt {
-  text-align: center;
-  font-size: 2rem;
-  color: antiquewhite;
-}
-
-.ft2 {
-  text-align: center;
-  font-size: 1rem;
-  justify-content: center;
-  color: antiquewhite;
-}
-
-.pagina-tres {
-  background-image: url(../assets/bgpagtres.svg);
-  background-size: cover;
-  min-height: 100vh;
-  position: relative;
-}
-
-.icono-tres {
-  width: 150px;
-  align-items: center;
-  padding-top: 40px;
-}
-
-.parte-tres {
-  margin: 60px 60px 60px 60px;
-  border: solid rgb(35, 5, 54);
-  background-color: rgb(178, 103, 244);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.iconos-tres {
-  width: 70px;
-  padding-top: 30px;
-}
-
-.pagina-cuatro {
-  background-image: url(../assets/bgpagcuatro.svg);
-  background-size: cover;
-  min-height: 100vh;
-  position: relative;
-}
-
-.parte-cuatro {
-  margin: 60px 60px 60px 60px;
-  border: solid rgb(35, 5, 54);
-  background-color: rgb(178, 103, 244);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.foto-4 {
-  padding-top: 40px;
-  width: 140px;
-  justify-content: center;
-  align-items: center;
-}
-
-.dessarrollo {
-  padding-top: 30px;
-  justify-content: center;
-  align-items: center;
-}
-
-.paginacinco {
-  background-image: url(../assets/bgpagcinco.svg);
-  background-size: cover;
-  min-height: 100vh;
-  position: relative;
-}
-
-.ct {
-  width: 100px;
-  margin: 30px;
-}
-
-@media only screen and (max-width: 576px) {
-  /* Header */
-  h1 {
-    font-size: 3;
-    justify-content: center;
-  }
-}
-/* Pagina dos con media querys */
 @media only screen and (max-width: 768px) {
   .sobre-mi {
     padding-top: 100px;
@@ -266,6 +48,171 @@ h3 {
   .ft2 {
     font-size: 0.5rem;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fondotodpag {
+  background: linear-gradient(to right, #654ea3, #eaafc8);
+}
+
+.header .navbar {
+  background-color: transparent !important;
+}
+
+.navbg a {
+  color: rgb(240, 248, 255);
+  font-weight: bold;
+}
+
+.navbg a:hover {
+  background-color: rgb(47, 10, 78);
+  border-style: hidden;
+  color: rgb(240, 248, 255);
+}
+
+.text-header {
+  padding-top: 25%;
+  text-align: center;
+  align-items: center;
+  font-size: 6rem;
+  color: rgb(240, 248, 255) !important;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.primerpag {
+  background: url(../assets/bgindex.svg);
+  position: relative;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.parte-uno {
+  margin: 5%;
+  padding: 5%;
+  border: solid rgb(35, 5, 54);
+  background-color: rgb(178, 103, 244);
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(240, 248, 255);
+  font-size: 2rem;
+}
+
+h3 {
+  font: size 1.5rem;
+  justify-content: center;
+  margin: 5%;
+  color: rgb(240, 248, 255);
+}
+
+.texto {
+  text-align: center;
+  font-size: 1rem;
+  justify-content: center;
+  margin: 5%;
+  color: rgb(240, 248, 255);
+}
+
+.iconos {
+  padding-top: 5%;
+  display: inline;
+  width: 50%;
+}
+
+.conten {
+  width: 200px;
+}
+
+.rrss {
+  align-items: center;
+  text-align: center;
+  color: rgb(240, 248, 255);
+  font-size: 1rem;
+}
+
+.ft {
+  justify-content: space-between;
+  width: 50px;
+  justify-content: center;
+  padding-top: 60px;
+  margin-left: 40px;
+}
+
+.pagina-dos {
+  background-image: url(../assets/bgpagdos.svg);
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.sobre-mi {
+  padding-top: 25%;
+  text-align: center;
+  font-size: 8rem;
+  color: rgb(240, 248, 255) !important;
+  font-weight: bold;
+}
+
+.foto-uno {
+  width: 18rem;
+  align-items: center;
+}
+
+.contactt {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(240, 248, 255);
+}
+
+.terpag {
+  background-image: url(../assets/bgpagtres.svg);
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.icono-tres {
+  width: 150px;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.iconos-tres {
+  width: 70px;
+  padding-top: 30px;
+}
+
+.pagina-cuatro {
+  background-image: url(../assets/bgpagcuatro.svg);
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.foto-4 {
+  padding-top: 40px;
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginacinco {
+  background-image: url(../assets/bgpagcinco.svg);
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.ct {
+  width: 100px;
+  margin: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */

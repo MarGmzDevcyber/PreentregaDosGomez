@@ -24,7 +24,7 @@
         color: rgb(240, 248, 255);
     }
     // titulosprincipales
-h1{
+.text-header{
         padding-top: 25%;
         text-align: center;
         align-items: center;
@@ -62,7 +62,7 @@ h3{
     color:  rgb(240, 248, 255);
 }
 
-.textos{
+.texto{
     text-align: center;
     font-size: 1rem;
     justify-content: center;
@@ -81,6 +81,7 @@ h3{
     align-items: center;
     text-align: center;
     color: rgb(240, 248, 255);
+    font-size: 1rem;
 }
 .ft{
     justify-content: space-between;
@@ -104,15 +105,8 @@ h3{
     font-weight: bold;
 }
 
-.contenido-dos{
-    padding-top: 100px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color:  rgb(240, 248, 255);
-
 .foto-uno{
-    width: 10rem;
+    width: 18rem;
     align-items: center;
 }
 .contactt{
@@ -121,19 +115,13 @@ h3{
     color: rgb(240, 248, 255);
 }
 
-.ft2{
-    text-align: center;
-    font-size: 1rem;
-    justify-content: center;
-    color: rgb(240, 248, 255);
-}
-.pagina-tres{
-    background-image:url(../assets/bgpagtres.svg);
+.terpag {
+    background-image: url(../assets/bgpagtres.svg);
     background-size: cover;
-    min-height: 100vh;
-    position: relative;
-}
+    min-height:100vh;
+    position:relative;
 
+}
 .icono-tres{
     width:150px;
     align-items: center;
@@ -156,20 +144,15 @@ h3{
     justify-content: center;
     align-items: center;
     }
-.dessarrollo{
-    padding-top: 30px;
-    justify-content: center;
-    align-items: center;
-    }
-    .paginacinco{
+
+.paginacinco{
         background-image:url(../assets/bgpagcinco.svg);
         background-size:cover;
         min-height:100vh;
         position: relative;
     }
     
-    .ct{
+.ct{
         width: 100px;
         margin: 30px;
     }
-}
