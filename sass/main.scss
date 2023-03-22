@@ -5,6 +5,11 @@
 }
 // fondo de todas las paginas
 
+body{
+    max-width: 100%;
+    overflow-x:hidden;
+}
+
 .fondotodpag {
     background :linear-gradient(to right, #654ea3, #eaafc8)
 }
