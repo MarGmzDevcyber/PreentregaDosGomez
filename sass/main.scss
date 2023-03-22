@@ -90,10 +90,11 @@ h3{
 }
 .ft{
     justify-content: space-between;
-    width: 50px;
+    width: 50%;
     justify-content: center;
     padding-top: 60px;
     margin-left: 40px;
+    font-size: 0.5;
 }
 .pagina-dos{
     background-image:url(../assets/bgpagdos.svg);
@@ -160,13 +161,6 @@ h3{
 .parte-dos{
 font-size: 1.5rem;
         }
-    
-.ft{
-    font-size: 0.5rem;
-    width: 20%;
-    margin-left: 2%;
-    
-}
 .ct{
     align-items: center;
     width: 20%;
