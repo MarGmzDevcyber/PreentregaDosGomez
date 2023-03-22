@@ -7,19 +7,27 @@
     padding-top: 30px;
     font-size: 2rem;
   }
-  .foto-uno {
-    width: 150px;
+  .flip-card {
+    width: 100%;
+    height: auto;
   }
-  .contenido-dos {
+  .flip-card-inner {
+    height: auto;
+  }
+  .foto-uno {
+    max-width: 100%;
+    height: auto;
+  }
+  .texto {
     padding-top: 10%;
     font-size: 1rem;
     justify-content: center;
     align-items: center;
   }
-  .contactt {
+  .parte-dos {
     font-size: 1rem;
   }
-  .ft2 {
+  .ft {
     font-size: 1rem;
   }
 }
@@ -32,20 +40,28 @@
     padding-top: 30px;
     font-size: 2rem;
   }
-  .foto-uno {
-    width: 180px;
+  .flip-card {
+    width: 300px;
+    height: 300px;
   }
-  .contenido-dos {
+  .flip-card-inner {
+    height: 100%;
+  }
+  .foto-uno {
+    max-width: 100%;
+    height: fit-content;
+  }
+  .texto {
     padding-top: 10% px;
     margin: 5%;
     font-size: 0.5rem;
     justify-content: center;
     align-items: center;
   }
-  .contactt {
+  .parte-dos {
     font-size: 1.5rem;
   }
-  .ft2 {
+  .ft {
     font-size: 0.5rem;
   }
 }
@@ -134,7 +150,6 @@ h3 {
   align-items: center;
   text-align: center;
   color: rgb(240, 248, 255);
-  font-size: 1rem;
 }
 
 .ft {
@@ -159,13 +174,17 @@ h3 {
   color: rgb(240, 248, 255) !important;
   font-weight: bold;
 }
-.parte-dos {
-  text-align: center;
-  font-size: 2rem;
-  color: rgb(240, 248, 255);
+
+.foto-uno {
+  align-items: center;
+  justify-content: center;
+  display: block;
+  max-width: 100%;
+  height: fit-content;
+  border-radius: 16px;
 }
 
-.terpag {
+.pagina-tres {
   background-image: url(../assets/bgpagtres.svg);
   background-size: cover;
   min-height: 100vh;
@@ -202,6 +221,14 @@ h3 {
   background-size: cover;
   min-height: 100vh;
   position: relative;
+}
+
+.parte-dos {
+  font-size: 1.5rem;
+}
+
+.ft {
+  font-size: 0.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
