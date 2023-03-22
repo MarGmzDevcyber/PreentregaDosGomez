@@ -56,6 +56,11 @@
   padding: 0;
 }
 
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .fondotodpag {
   background: linear-gradient(to right, #654ea3, #eaafc8);
 }
@@ -215,6 +220,12 @@ h3 {
 
 .ft {
   font-size: 0.5rem;
+}
+
+.ct {
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=styles.css.map */
