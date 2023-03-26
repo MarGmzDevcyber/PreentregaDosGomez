@@ -38,6 +38,8 @@ body{
         color: rgb(240, 248, 255) !important;
         font-weight: bold;
         justify-content: center;
+        margin-left: 3%;
+        margin-right: 3%;
         }
 
 .primerpag{
@@ -103,6 +105,7 @@ h3{
     padding-top: 60px;
     margin-left: 40px;
     font-size: 0.5;
+    padding-bottom: 7%;
 }
 .pagina-dos{
     background-image:url(../assets/bgpagdos.svg);
@@ -171,7 +174,7 @@ font-size: 1.5rem;
         }
 .ct{
     align-items: center;
-    width: 20%;
+    width: 18%;
     justify-content: space-evenly;
     margin-left: 5%;
 }
