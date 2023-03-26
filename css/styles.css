@@ -20,8 +20,11 @@
   .parte-dos {
     font-size: 1rem;
   }
+  .rrss {
+    font-size: 1.5rem;
+  }
   .ft {
-    font-size: 1rem;
+    width: 10px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -47,8 +50,45 @@
   .parte-dos {
     font-size: 1.5rem;
   }
+  .rrss {
+    font-size: 1rem;
+  }
   .ft {
-    font-size: 0.5rem;
+    width: 8px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flip-card {
+    width: 80%;
+    height: 300px;
+    margin: 3%;
+  }
+  .card1, .card2 {
+    width: 80%;
+    height: 300px;
+  }
+  .title {
+    font-size: 1.2em;
+  }
+  .textouc {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .flip-card {
+    width: 90%;
+    height: 250px;
+    margin: 2%;
+  }
+  .card1, .card2 {
+    width: 90%;
+    height: 250px;
+  }
+  .title {
+    font-size: 1em;
+  }
+  .textouc {
+    display: none;
   }
 }
 .flip-card {
@@ -184,6 +224,14 @@ h3 {
 }
 
 .texto {
+  text-align: center;
+  font-size: 1rem;
+  justify-content: center;
+  margin: 10%;
+  color: rgb(240, 248, 255);
+}
+
+.textouc {
   text-align: center;
   font-size: 1rem;
   justify-content: center;
