@@ -1,4 +1,5 @@
 @use 'mediaq.scss';
+@use '_cards.scss';
 *{
     margin:0;
     padding:0;
@@ -30,7 +31,7 @@ body{
     }
     // titulosprincipales
 .text-header{
-        padding-top: 25%;
+        padding-top: 20%;
         text-align: center;
         align-items: center;
         font-size: 6rem;
